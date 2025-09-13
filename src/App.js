@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import EventForm from "./components/EventForm";
 
 function App() {
   return (
@@ -16,6 +18,14 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* Top Header */}
+      <Header />
+
+      {/* Main Section */}
+      <main>
+        <h2>Plan Your Event</h2>
+        <EventForm />
+      </main>
     </div>
   );
 }
