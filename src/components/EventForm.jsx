@@ -42,7 +42,6 @@ function EventForm() {
     return `${day}-${month}-${year}`;
   };
 
-  // Generate times dynamically based on timing
   const getTimeOptions = () => {
     let times = [];
 
