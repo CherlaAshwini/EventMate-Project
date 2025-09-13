@@ -1,14 +1,14 @@
-import React from "react";
-import "./App.css";
-import Header from "./components/Header";
-import EventForm from "./components/EventForm";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,14 +18,6 @@ function App() {
           Learn React
         </a>
       </header>
-      {/* Top Header */}
-      <Header />
-
-      {/* Main Section */}
-      <main>
-        <h2>Plan Your Event</h2>
-        <EventForm />
-      </main>
     </div>
   );
 }
